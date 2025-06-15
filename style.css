@@ -10,22 +10,40 @@
 }
 
 
-.purple-100-bg {
+.bg-purple-100 {
     background-color: hsl(254, 88%, 90%);
 }
 
 
-.purple-500-bg {
+.bg-purple-500 {
     background-color: hsl(256, 67%, 59%);
 }
 
 
-.yellow-100-bg {
+.bg-yellow-100 {
     background-color: hsl(31, 66%, 93%);
 }
 
-.yellow-500-bg {
+.bg-yellow-500 {
     background-color: hsl(39, 100%, 71%);
+}
+
+.text-purple-100 {
+    color: hsl(254, 88%, 90%);
+}
+
+
+.text-purple-500 {
+    color: hsl(256, 67%, 59%);
+}
+
+
+.text-yellow-100 {
+    color: hsl(31, 66%, 93%);
+}
+
+.text-yellow-500 {
+    color: hsl(39, 100%, 71%);
 }
 
 
