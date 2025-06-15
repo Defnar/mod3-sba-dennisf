@@ -46,14 +46,14 @@
     color: hsl(39, 100%, 71%);
 }
 
-
 #social-image {
-    width: 50%;
+    width: 150%;
 }
 
 #grid-container {
-    max-width: 950px;
+    max-width: 1025px;
 }
+
 
 .attribution {
   font-size: 11px;
@@ -61,4 +61,28 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media(max-width:575.98px) {
+    #social-image {
+        width: 100%;
+    }
+}
+
+@media(min-width: 576px) {
+    
+#schedule-img {
+    position: absolute;
+    bottom:-85px;
+    left: 50%;
+    width: 90%;
+}
+
+#social-media-schedule-img {
+    position: absolute;
+    right: -45%;
+    width: 120%;
+    height: auto;
+    max-width: none;
+}
 }
