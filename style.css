@@ -51,6 +51,10 @@
     width: 50%;
 }
 
+#grid-container {
+    max-width: 950px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

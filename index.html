@@ -24,17 +24,18 @@
       --bs-body-font-family: 'DM Sans', sans-serif;
       --bs-body-font-size: 18px;
     "
-    class="lh-1"
+    class="lh-1 min-vh-100 d-flex flex-column justify-content-center"
   >
-    <div class="container-sm text-center d-grid align-items-stretch">
+    <div id="grid-container" class="container-sm text-center d-grid">
       <div class="row g-3">
-        <div class="col col-sm-8 order-sm-2">
+        <div class="col-12 col-sm-8 order-sm-2">
           <div class="row g-3">
             <div class="col-12 col-sm-8 order-sm-1">
-              <div class="card bg-purple-500 text-white p-4">
+              <div class="card shadow border border-0 bg-purple-500 text-white p-3">
                 <h1 class="card-title">
-                  Social Media <span class="text-yellow-500 fst-italic">10x</span> Faster with
-                  AI
+                  Social Media
+                  <span class="text-yellow-500 fst-italic">10x</span> Faster
+                  with AI
                 </h1>
 
                 <img
@@ -46,24 +47,22 @@
 
                 <p>Over 4,000 5-star reviews</p>
               </div>
-              <div class="row g-3">
+              <div class="row g-3 mt-1">
                 <div class="col-12 col-sm-6">
-                  <div class="card h-100 w-100">
+                  <div class="card shadow border border-0 h-100 w-100 p-3">
                     <img
                       src="assets/images/illustration-multiple-platforms.webp"
                       alt="several social media icons in an illustration"
                       class="img-fluid"
                     />
-                    <p class="fw-medium">
+                    <p class="fw-medium fs-2 text-start">
                       Manage multiple accounts and platforms.
                     </p>
                   </div>
                 </div>
 
                 <div class="col-12 col-sm-6">
-                  <div
-                    class="card fw-medium bg-yellow-500 h-100 w-100 overflow-hidden"
-                  >
+                  <div class="card shadow-sm border border-0 bg-yellow-500 h-100 w-100 p-3">
                     <p class="fs-2 fw-medium text-start">
                       Maintain a consistent posting schedule.
                     </p>
@@ -77,8 +76,8 @@
               </div>
             </div>
             <div class="col-12 col-sm-4 order-sm-2">
-              <div class="card w-100 h-100 bg-purple-100 p-4">
-                <h5 class="fw-medium">Schedule to social media.</h5>
+              <div class="card shadow border border-0 w-100 h-100 bg-purple-100 p-3">
+                <p class="fw-medium fs-4">Schedule to social media.</p>
                 <img
                   src="assets/images/illustration-schedule-posts.webp"
                   alt="picture of week with busy times per day"
@@ -92,38 +91,57 @@
               </div>
             </div>
           </div>
-          <div class="row g-3">
+          <div class="row g-3 mt-1">
             <div class="col-12 col-sm-8 order-sm-2">
               <div
-                class="card d-flex flex-row bg-purple-500 align-items-center text-white fw-medium h-100 w-100"
+                class="card shadow border border-0 d-flex flex-row bg-purple-500 align-items-center text-white fw-medium h-100 w-100 p-3"
               >
                 <img
                   src="assets/images/illustration-grow-followers.webp"
                   alt="follower growth chart"
                   class="img-fluid w-50 m-2"
                 />
-                <p class="fs-2">Grow followers with non-stop content.</p>
+                <p class="fs-4">Grow followers with non-stop content.</p>
               </div>
             </div>
 
             <div class="col-12 col-sm-4 order-sm-1">
-              <div class="card h-100 w-100">
+              <div class="card shadow border border-0 h-100 w-100 p-3">
                 <p class="fs-1 fw-medium">>56%</p>
-                 <p>faster audience growth</p>
-                 <img src="assets/images/illustration-audience-growth.webp" alt="several drawn faces" class="img-fluid">
+                <p>faster audience growth</p>
+                <img
+                  src="assets/images/illustration-audience-growth.webp"
+                  alt="several drawn faces"
+                  class="img-fluid"
+                />
               </div>
             </div>
           </div>
         </div>
-        <div class="col col-sm-3 order-sm-1">
-          <div class="card h-50 w-100 bg-yellow-100 justify-content-center p-4">
-            <p class="fs-2 fw-medium">Create and schedule content <span class="fst-italic text-purple-500">quicker.</span></p>
-         <img src="assets/images/illustration-create-post.webp" alt="picture of mouse clicking create post button" class="img-fluid">
+        <div class="col-12 col-sm-4 order-sm-1 d-flex flex-column gap-3 ">
+          <div class="card shadow border border-0 bg-yellow-100 justify-content-center p-3 flex-fill">
+            <div class="mt-4 mb-4 d-flex flex-column gap-4 justify-content-center">
+            <p class="fs-2 fw-medium text-start">
+              Create and schedule content
+              <span class="fst-italic text-purple-500">quicker.</span>
+            </p>
+            <img
+              src="assets/images/illustration-create-post.webp"
+              alt="picture of mouse clicking create post button"
+              class="img-fluid w-75 align-self-center"
+            />
+          </div>
           </div>
 
-          <div class="card h-50 w-100 bg-yellow-500 p-4">
-            <p class="fs-2 text-start fw-medium">Write your content using AI.</p>
-          <img src="assets/images/illustration-ai-content.webp" alt="asking ai to give tips on growth" class="img-fluid">
+          <div class="card shadow border border-0 bg-yellow-500 p-3 flex-fill">
+            <p class="fs-2 text-start fw-medium">
+              Write your content using AI.
+            </p>
+            <img
+              src="assets/images/illustration-ai-content.webp"
+              alt="asking ai to give tips on growth"
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
