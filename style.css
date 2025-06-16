@@ -1,59 +1,53 @@
 @font-face {
-    font-family: 'DM Sans';
-    src: url('assets/fonts/DMSans-VariableFont_opsz\,wght.ttf');
+  font-family: "DM Sans";
+  src: url("assets/fonts/DMSans-VariableFont_opsz\,wght.ttf");
 }
 
 @font-face {
-    font-family: 'DM Sans';
-    src: url('assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf');
-    font-style: italic;
+  font-family: "DM Sans";
+  src: url("assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf");
+  font-style: italic;
 }
-
 
 .bg-purple-100 {
-    background-color: hsl(254, 88%, 90%);
+  background-color: hsl(254, 88%, 90%);
 }
-
 
 .bg-purple-500 {
-    background-color: hsl(256, 67%, 59%);
+  background-color: hsl(256, 67%, 59%);
 }
 
-
 .bg-yellow-100 {
-    background-color: hsl(31, 66%, 93%);
+  background-color: hsl(31, 66%, 93%);
 }
 
 .bg-yellow-500 {
-    background-color: hsl(39, 100%, 71%);
+  background-color: hsl(39, 100%, 71%);
 }
 
 .text-purple-100 {
-    color: hsl(254, 88%, 90%);
+  color: hsl(254, 88%, 90%);
 }
-
 
 .text-purple-500 {
-    color: hsl(256, 67%, 59%);
+  color: hsl(256, 67%, 59%);
 }
 
-
 .text-yellow-100 {
-    color: hsl(31, 66%, 93%);
+  color: hsl(31, 66%, 93%);
 }
 
 .text-yellow-500 {
-    color: hsl(39, 100%, 71%);
+  color: hsl(39, 100%, 71%);
 }
 
 #social-image {
-    width: 150%;
+  width: 150%;
 }
 
 #grid-container {
-    max-width: 875px;
+  max-width: 875px;
 }
-
 
 .attribution {
   font-size: 11px;
@@ -63,31 +57,30 @@
   color: hsl(228, 45%, 44%);
 }
 
-@media(max-width:767.98px) {
-    #social-image {
-        width: 100%;
-    }
-#grid-container {
+
+@media (max-width: 767.98px) {
+  #social-image {
+    width: 100%;
+  }
+  #grid-container {
     max-width: 500px;
+  }
 }
-    
-}
 
-
-@media(min-width: 768px) {
-
-#schedule-img {
+@media (min-width: 768px) {
+  #schedule-img {
     position: absolute;
     right: 10px;
-    bottom:-60px;
+    bottom: -60px;
     width: 90%;
-}
+  }
 
-#social-media-schedule-img {
+  #social-media-schedule-img {
     position: absolute;
     right: -45%;
-    width: 120%;
+    bottom: 35%;
+    width: 125%;
     height: auto;
     max-width: none;
-}
+  }
 }
