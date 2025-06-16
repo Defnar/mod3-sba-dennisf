@@ -63,14 +63,18 @@
   color: hsl(228, 45%, 44%);
 }
 
-@media(max-width:575.98px) {
+@media(max-width:767.98px) {
     #social-image {
         width: 100%;
     }
-
+#grid-container {
+    max-width: 500px;
+}
+    
 }
 
-@media(min-width: 576px) {
+
+@media(min-width: 768px) {
 
 #schedule-img {
     position: absolute;
